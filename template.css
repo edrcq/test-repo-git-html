@@ -65,7 +65,8 @@ html, body {
 
 .article-img {
     display: block;
-    max-width: 150px;
+    max-width: 250px;
+    max-height: 100%;
 }
 
 .b-f {
@@ -73,7 +74,14 @@ html, body {
 }
 
 .article-text {
-    
+    overflow: hidden;
+    max-height: 200px;
+    padding: 1rem;
+}
+
+.article-text p {
+    max-height: 100%;
+    text-overflow: ellipsis;
 }
 
 .article-buttons {
@@ -89,3 +97,13 @@ html, body {
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 768px) {
+    .article {
+        flex-direction: column;
+    }
+    
+    .article-img {
+        max-width: 100%;
+        max-height: 150px;
+    }
+}
