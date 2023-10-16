@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    color: red;
+}
+
+header + nav + .link {
+    color: #d19e28;
+}
+
+.link:visited {
+    color: green;
+}
+
+.link:hover {
+    color:blueviolet;
+}
+
+

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.small-img {
+    height: 100px;
+}
+
+.header {
+    background-image: url(/assets/images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 30%;
+}
+
+/* test */
+.header h1 {
+    padding-top: 20px;
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+}
+
+/* Contenu de la page */
+.row {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; axe secondaire  */
+    justify-content: space-between; /* axe principal */
+    background-color: red;
+}
+
+.col-left {
+    display: block;
+    width: 100%;
+    /* max-width: 80%; */
+    background-color: green;
+}
+
+.col-right {
+    max-width: 20%;
+    padding: 20px; /* tout cote */
+    background-color: blue;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 5px rgb(255, 106, 0) solid;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    border: 1px white solid;
+}
+
+.article-img {
+    display: block;
+    max-width: 150px;
+}
+
+.b-f {
+    border: 2px yellow solid;
+}
+
+.article-text {
+    
+}
+
+.article-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.article-buttons > button {
+    display: block;
+    border: none;
+    background-color: blanchedalmond;
+    font-size: 1.5rem;
+}
+
