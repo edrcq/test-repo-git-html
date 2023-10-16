@@ -95,6 +95,13 @@ html, body {
     border: none;
     background-color: blanchedalmond;
     font-size: 1.5rem;
+    height: 100%;
+    cursor: pointer;
+}
+
+.article-buttons > button:hover {
+    background-color: brown;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 768px) {
