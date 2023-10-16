@@ -104,6 +104,10 @@ html, body {
     font-size: 2rem;
 }
 
+.article-buttons > button:hover {
+    font-size: 2rem;
+}
+
 @media screen and (max-width: 768px) {
     .article {
         flex-direction: column;
